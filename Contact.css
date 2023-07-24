@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    }
+    
+    header{
+        background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    }
+    
+    header ul{
+        margin-right: 15px;
+        list-style: none;
+        display: flex;
+    }
+    header ul li{
+    padding-right: 10px;
+    
+    }
+    header ul a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+    }
+    header h1 {
+        margin-left: 15px;
+    color: white;
+    
+    
+    }
+
+
+
+    main{
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    article{
+        background-color:rgb(0, 0, 0);
+        opacity: 0.9;
+        padding: 30px;
+        box-shadow: 5px 5px 15px;
+        border-radius: 20px 0px 20px 0px;
+    }
+main article ul{
+
+    list-style: none;
+
+}
+
+main article ul li{
+    margin-top: 10px;
+
+}
+main article ul li input:not(#btn){
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid  rgb(232, 118, 10);
+    border-radius: 10px;
+    padding-left: 10px;
+
+}
+
+#btn{
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+
+}
+
+main article h2{
+    color: white;
+}
+
+header ul a:hover{
+    background-color: rgb(5, 5, 250);
+}
+
+body {
+    background-image: url("kha.jpg");
+  }
+
+
+  header ul{
+    margin-right: 477px;
+    list-style: none;
+    display: flex;
+
+}
+header ul a{
+    padding: 20px 10px;
+text-decoration: none;
+color: rgb(255, 255, 255);
+
+}
